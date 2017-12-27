@@ -1,1 +1,1 @@
-web: gunicorn Flask_Admin.wsgi
+web: gunicorn app:Flask_Admin --log-file=-
